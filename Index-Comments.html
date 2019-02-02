@@ -1,0 +1,62 @@
+<!--
+Declaration of doctype.
+Inform browser which type of HTML we want to use.
+More details at https://www.w3.org/QA/2002/04/valid-dtd-list.html
+-->
+<!DOCTYPE HTML>
+
+<!--Start HTML code.
+Use <thml> tag.
+Used parameters:
+	lang: Set default language. Recognised by browser.
+-->
+<html lang="pl">
+
+<!--Below start head section. It contain invisible data about page.-->
+https://www.w3schools.com/tags/tag_head.asp
+<head>
+<!--meta: set metadata-->
+	<meta charset="utf-8/"> <!--charset: set coding style of characters.-->
+	<title>Najlepsze filmy</title> <!-- Title of whole page. Used by google robot.-->
+	<meta name="description" content="Przed Tobą kolekcja filmów"/> <!-- Set page metadata description. Used by google robot.-->
+	<meta name="keywords" content="film, kino"/> <!-- Set page metadata keywords. Used by google robot.-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/> <!--If user use IE then we force to use the newest version of it.-->
+</head>
+<!--Above end head section.-->
+
+
+
+<!--Below start body section. It is 'visible' part of page.-->
+<body>
+	<h1>Najlepsze filmy!</h1> <!--Header.-->
+
+	Komedia: <br/> <br/> <!--br: break line-->
+
+	<!--Create hyperlink.
+	Use <a> tag. https://www.w3schools.com/tags/tag_a.asp
+	Used parameters:
+		href: indicate target adrees of link
+		target: specifies where to open the linked document. https://www.w3schools.com/tags/att_a_target.asp
+		title: hint of link
+	-->
+	<a href="https://www.filmweb.pl/Forrest.Gump" target="blank" title="Zobacz na filmweb">
+		Forrest Gump (1994)
+	<a/>
+	<br/>
+	<a href="https://www.filmweb.pl/Forrest.Gump" target="blank" title="Run Forrest">
+		<img src="img/FG.jpg" height="300"/>
+	</a>
+
+	<br/><br/>
+
+	Horror: s<br/> <br/>
+	<a href="https://www.filmweb.pl/Obcy" target="blank" title="Zobacz na filmweb">
+		Alien (1979)
+	<a/>
+	<br/>
+	<a href="https://www.filmweb.pl/Obcy" target="blank" title="Run Alien">
+		<img src="img/Alien.jpg" height="300"/>
+	</a>
+	</body>
+	<!--Above end body section.-->
+</html>
